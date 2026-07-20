@@ -72,7 +72,7 @@ while number != -1:
 print("The largest number is: , largest_number")'''
 
 '''write a program that reads a sequence of numbers and counts how many
- are even and how many are odd. the program terminate when zero is entered'''
+ are even and how many are odd. the program terminate when zero is entered
 
 odd_numbers = 0
 even_numbers = 0
@@ -87,3 +87,120 @@ while number != 0:
     
 print("odd numbers count:", odd_numbers)
 print("Even numbers count:", even_numbers)
+
+i = 0
+while i <= 10:
+    print(i)
+    i += 1
+    
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+i = 2
+while i <= 20:
+    print(i)
+    i += 2
+    
+i = 1
+while i <= 19:
+    print(i)
+    i += 2
+    
+i = 1
+
+while i <= 20:
+    print(i)
+    i += 2'
+    
+i = 1
+total = 0
+while i <= 100:
+    total += i
+    i += 1
+print("sum =", total
+
+num = int(input("enter a number:"))
+fact = 1
+i = 1
+while i <= num:
+    fact *= i
+    i += 1
+    
+print("Factorial=",fact)
+
+count = 2
+while count <= 20:
+    print(count)
+    count += 2
+    
+i = 1
+sum =0 
+while i <= 100:
+    sum += i
+    print(i)
+    i += 1
+print("sum =", sum)
+
+no = int(input("enter a number"))
+i = 1
+while i <= 10:
+    num = i * no
+    print(num)
+    i = i + 1
+    
+num = int(input('enter a number'))
+fact = 1
+i = 1
+while i <= num:
+    fact = fact * i
+    i = i + 1
+print("fact =",fact)
+
+num = int(input('enter a digit:'))
+count = 0
+while num > 0:
+    count += 1
+    num //= 10
+print("Digits =", count)
+
+num = int(input('enter a number :'))
+reverse = 0
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num //= 10
+    
+print("Reverse =", reverse)
+
+num = int(input("enter a number:"))
+original = num
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+    
+if original == reverse:
+    print("palindrome")
+else:
+    print("Not palindrome")'''
+    
+
+    
+
+
+
+
+
+ 
+    
+
+     
+
+    
+    
+
+    
