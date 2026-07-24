@@ -101,4 +101,138 @@ print("remaining_days=", remaining_days)
 #Find the power of a Number
 base = 2
 exponent = 5
-print(base ** exponent)'''
+print(base ** exponent)
+
+
+# Comparision Operator
+# check if two numbers are equal
+a = int(input("enter first no :"))
+b = int(input("enter two no :"))
+
+if a == b:
+    print("equal numbers")
+else:
+    print("not equal no")
+
+
+# Find the largest of two numbers
+a = int(input("enter the no:"))
+b = int(input("enter the no :"))
+ 
+if a > b:
+    print("no a is greater")
+elif a < b:
+    print("no b is greater:")
+else:
+    print("a is equal to b")
+    
+#Logical Operater(and, or, not)
+
+#check voting eligibility
+age = int(input("enter the age:"))
+
+if age >= 18:
+    print("adult")
+else:
+    print("not adult")
+    
+#Check if a number lies between 10 and 50
+num = int(input('enter a number:'))
+
+if num >= 10 and num <= 50:
+    print("number lies bet 10 and 50")
+else:
+    print("number not lies ")
+    
+# username and password validation
+
+username = input("enter username:")
+password = int(input("enter password"))
+
+if username == "nancy" and password == 1234:
+     print("Login successful")
+else:
+    ("invalid credentials ")
+    
+#Assignment Operater(+= ,-=. *=, /=, //=, %=, **=)
+
+#incerease salary by 10 percent
+ 
+salary = 30000
+
+salary += salary * 0.10 # salary = salary + (salary * 0.10)
+print(salary)
+
+# Add bonus to marks
+marks = 70
+
+marks += 5
+print(marks)
+
+# Bitwise Operator (&,|,^,~,<<,>>)
+
+# Check if a number is even using bitwise operator
+num = int(input("enter a number:"))
+
+if num & 1:
+    print("Odd")
+else:
+    print("Even")
+    
+# Multiply a number by 4 using left shift
+num = int(input("Enter a number:"))
+print(num << 2)
+
+# Divide a number by 2 using right shift
+num = int(input("Enter a number:"))
+print(num >> 1)'''
+
+# Membership Operators(in, not in)
+text = "python"
+ch = input("Enter a character:")
+
+if ch in text:
+    print("present")
+else:
+    print("Not present")
+    
+# check if an item exists in a list
+numbers = [10, 20, 30, 40]
+
+num = int(input("Enter a number: "))
+
+if num in numbers:
+    print("Found")
+else:
+    print("Not Found")
+    
+#Identity Operators(is, is not)
+# check if two variables refer to the same object
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)
+print(a is c)
+
+#Check if a variable is None
+value = None
+
+if value is None:
+    print("Value is None")
+else:
+    print("Value is not None")
+
+# Conditional (Ternary) operator
+
+# Find the greater number
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+largest = a if a > b else b
+
+print("Largest =", largest)
+
+
+
+
