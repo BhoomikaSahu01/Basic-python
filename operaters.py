@@ -185,7 +185,7 @@ print(num << 2)
 
 # Divide a number by 2 using right shift
 num = int(input("Enter a number:"))
-print(num >> 1)'''
+print(num >> 1)'
 
 # Membership Operators(in, not in)
 text = "python"
@@ -232,6 +232,86 @@ b = int(input("Enter second number: "))
 largest = a if a > b else b
 
 print("Largest =", largest)
+
+# Relational Operator
+
+a = 50
+b = 20
+print(a == b)
+print(a != b)
+print( a >= b)
+print(a <= b)
+print(a < b)
+
+
+# assignment operators
+num = 10
+num = num + 10
+num += 10
+print("num =",num)
+
+# Logical operators
+a = 50
+b = 20
+print(not False)
+print(not (a > b))
+
+val1 = True
+val2 = False
+print("AND operator:", val1 and val2)
+print("OR operator:", val1 or val2)
+
+a = 50
+b = 30
+print("OR operator:", (a == b) or (a > b))
+
+# Type Conversion
+
+a = 2
+b = 4.25
+sum = a + b
+print(sum)
+
+a , b = 1 , "2"
+c = int(b)
+sum = a + c
+
+a = 3.14
+a = str(a)
+print(type(a))
+
+name = input("enter your name:")
+print("Welcome", name)
+
+int = ("5")
+val = int(input("enter some value: "))
+print(type(val), val)
+
+# Write a program to input 2 numbers and print their sum
+num1 = int(input("enter a number:"))
+num2 = int(input("enter a number:"))
+sum = num1 + num2
+print("sum =",sum)
+
+# WAP to input side of a square and print its area
+side = int(input("side of a square"))
+area = side * side
+print("area =", area)
+
+# WAP to input 2 floating point numbers and print their average
+num1 = float(input("enter no:"))
+num2 = float(input("enter no:"))
+average = num1 + num2 / 2
+print("average=",average)
+
+#WAP to input 2 int numbers, a and b
+#print True if a is greater than or equal to b. if not print False
+
+a = int(input("enter a no:"))
+b = int(input("enter a no:"))
+print( a >= b)'''
+
+
 
 
 

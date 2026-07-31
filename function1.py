@@ -68,9 +68,50 @@ def converter(usd_val):
     inr_val = usd_val * 83
     print(usd_val, "USD=", inr_val, "INR")
     
-converter(1)'''
+converter(1)
 
+# Write a function to add two numbers
 
+def add_numbers(a, b):
+    sum = a + b
+    print(sum)
+    
+add_numbers(5,6)
+add_numbers(9,10)
+
+# Write a function to check whether a number is even or odd
+
+def even_Odd(num):
+    if num % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+even_Odd(9)
+even_Odd(10)
+
+# Write a function to find the maximum of three numbers
+def maximum(a,b,c):
+    if a >= b and  a>=c:
+        print("a is greater")
+    elif b >= c:
+        print("b is greater")
+    else:
+        print("c is greater")
+        
+maximum(25,50,40)'''
+
+# Function to Reverse a String
+def reverse_string(name):
+    result = ""
+    for ch in name:
+        result = ch + result
+        print(result)
+        
+reverse_string("BhoomikaSahu")
+        
+    
+    
 
 
 
