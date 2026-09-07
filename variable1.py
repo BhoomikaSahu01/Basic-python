@@ -91,7 +91,56 @@ principal = 1000
 rate = 5
 time = 2
 si = (principal * rate * time)/100
-print(si)'''
+print(si)
+
+# print  age and some other things in one line
+
+Name = "Bhoomika"
+age = 22
+height = 5.5
+is_student = True
+
+print("name of the student" +  Name  + 
+      "she is " + str(age) + " years old." 
+      + "she is" + str(height) + "cms tall"
+       +"student:" + str(is_student))
+       
+# you are given a sting: num = 45, convert it to an integer
+# and add 10 to it. print the result
+
+num = 45
+num = int(45)
+num += 10
+print(num)'''
+
+''' Taking user input write a program 1 asks the user 
+for their favorite food. 2 prints
+
+user = input("enter your favorite food :")
+print("wow ! I also like food", user)'''
+
+''' simple calculator write a program that 
+1. takes two numbers as input from the user
+
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
+print(a + b)
+print(a / b)
+print( a - b)
+print(a % b)'''
+
+''' print the following output escape sequence
+
+print(' Harry said , "python is awesome!"  \n This is on a new line. \n this is  a tab -> \t <- here')'''
+
+'''operater challenge write a program that:
+1 takes an integer as input form the user.
+2 prints the square and cube of that number.
+
+num = int(input("enter a number :"))
+print("square =", num ** 2)
+print("cube =", num ** 3)'''
+
 
 
 
