@@ -1,0 +1,27 @@
+'''if statement
+age = 20
+
+if(age >= 18):
+    print("you can drive")
+    print("Thankyou")
+print("End of program")
+
+# if else statement
+
+age = int(input("enter age:"))
+
+if(age >= 18):
+    print("they can vote")
+else:
+    print("they can not vote")
+    
+# if-elif statement
+
+age = int(input("enter a age"))
+
+if(age >= 18):
+    print("they are adults")
+elif(age >= 14 and age < 18):
+    print("they are teenagers")
+else:
+    print("they are child")'''
