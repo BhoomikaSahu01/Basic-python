@@ -21,7 +21,7 @@ def reverse_string(s):
         right -= 1
         
     return "".join(chars)
-print(reverse_string("hello"))'''
+print(reverse_string("hello"))
 
 #using a loop with indices
 
@@ -31,4 +31,4 @@ def reverse_string(s):
         result += s[i]
     return result
 
-print(reverse_string("hello"))
+print(reverse_string("hello"))'''
