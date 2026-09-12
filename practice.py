@@ -131,7 +131,7 @@ for i in range(1,11):
     print(i)'''
     
 '''Write a loop that goes through numbers 1 to 5,
-but does nothing for numbers 3(use pass)'''
+but does nothing for numbers 3(use pass)
 for i in range(1, 6):
     match i:
         case 1:
@@ -143,12 +143,110 @@ for i in range(1, 6):
         case 4:
             print(4)
         case 5:
-            print(5)
-    
+            print(5)'''
+            
+'''create a string variable name with your fullname. Print
+ 1 the first char
+ 2 the last char
+ 3 the length of the string
+ 
+Name = "Bhoomika Sahu"
+print(Name[0])
+print(Name[-1])
+print(len(Name))'''
+
+'''Concatenate two strings "hello" and "world"
+ with a space in between
+
+name = "hello" + " " + "world"
+print(name)# we also do with str1 and str2 (str1,str2)
+ '''
+ 
+#string slicing and Indexing
+''' Given text = "python programming", do the following
+1 print the first 6 characters
+2 print the last 6 characters
+3 print every second character from the string
+
+text = "python programming"
+print(text[0:6])
+print(text[-6:])
+print(len(text))
+print(text[::2])'''
+
+'''reverse the string text using slicing
+text = "python programming"
+print(text[::-1])'''
+
+'''Take the string "i love python programming" and:
+1. Remove extra spaces from both ends
+2. Convert it to little case
+3. count how many times "o" appears
+
+text = " i love python programming "
+print(text.strip())
+print(text.title())
+print(text.count("o"))'''
+
+'''Check if the string "123abc" is alphanumeric
   
+str1 = "123abc"
+#print(str1.isalpha()) # it is  an alphanumeric string
+
+if str1.isalnum():
+    print("yes this string is alphanumeric")
+else:
+    print("this string is not alphanumeric")'''
     
+#String Formatting and f-Strings
+'''Using format(), create a sentence:
+"My name is John and I am 25 years Old."
+by passing "John" and 25 as variables.
+
+name = "John"
+age = 25
+print(f"My name is {name} and I am {age} years old.")
+  
+name = "John"
+age = 25
+print("My name is {} and I am {} years old.".format(name,age)) 
+
+   '''
+   
+#String Manipulation challenges
+'''
+1 Given sentence = "Coding in python is fun", replace 
+"fun" with "awesome" and print it.
+2 find the index of the word "python" in sentence.
+3 Convert the entire sentence to uppercase and print it
+
+sentence = "Coding in python is fun"
+new = sentence.replace("fun", "awesome")
+print(new)'''
+
+'''Find the index of the word "python" in sentence.
+sentence = "coding in python is fun"
+ind = sentence.index("python")
+print(ind)'''
+
+'''Convert the entire sentence to uppercase and print it
     
-         
+sentence = "coding in python is fun" 
+print(sentence.upper())'''
+
+'''1. write a program  that counts how many vowels are in
+a given string
+2. Take a user input string and check if it is a palin
+drome (same forwards and backwards)'''
+
+sentence = "Coding in python is fun"
+sum = 0
+vowels = ['a', 'e', 'i', 'o', 'u']
+for char in sentence:
+     if(char in vowels):
+        sum += 1
+        
+print(f"There are {sum} vowels in this sentence")
 
 
     
