@@ -295,7 +295,7 @@ for num in list1:
     if num not in list2:
         print(num)'''
         
-'''Remove duplicate numbers from a list without using set()'''
+'''Remove duplicate numbers from a list without using set()
 
 numbers = [10, 20, 10, 30, 20, 40]
 unique = []
@@ -303,7 +303,9 @@ unique = []
 for num in numbers:
     if num not in unique:
         unique.append(num)
-print(unique)
+print(unique)'''
+
+
         
     
 
