@@ -237,7 +237,7 @@ print(sentence.upper())'''
 '''1. write a program  that counts how many vowels are in
 a given string
 2. Take a user input string and check if it is a palin
-drome (same forwards and backwards)'''
+drome (same forwards and backwards)
 
 sentence = "Coding in python is fun"
 sum = 0
@@ -246,7 +246,69 @@ for char in sentence:
      if(char in vowels):
         sum += 1
         
-print(f"There are {sum} vowels in this sentence")
+print(f"There are {sum} vowels in this sentence")'''
+
+# membership operators
+
+'''check whether an element exits in a list
+list = [10,20,30,40,50]
+
+
+if 20 in list:
+    print("element is present")
+else:
+    print("not present")'''
+    
+''' Check whether a charcter is present in a string 
+char = ["A","B","C","D"]
+
+if "A" in char:
+    print("True")
+else:
+    print("false")'''
+    
+# not in
+''' write a python program to check whether 25 is not present
+in a list
+
+num = [67,89,65,44]
+
+if 25 not in num:
+    print("25 is not present")
+else:
+    print("25 is present")'''
+    
+'''Check whether a character is not present in a string
+word = "python"
+if "z" not in word:
+    print("False")
+else:
+    print("True")'''
+    
+'''Given two lists, print the elements of the first list
+that are absent from the second list
+
+list1 = [5, 6, 7, 8]
+list2 = [1, 2, 3, 4]
+
+for num in list1:
+    if num not in list2:
+        print(num)'''
+        
+'''Remove duplicate numbers from a list without using set()'''
+
+numbers = [10, 20, 10, 30, 20, 40]
+unique = []
+
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+print(unique)
+        
+    
+
+
+    
 
 
     
