@@ -99,7 +99,7 @@ def maximum(a,b,c):
     else:
         print("c is greater")
         
-maximum(25,50,40)'''
+maximum(25,50,40)
 
 # Function to Reverse a String
 def reverse_string(name):
@@ -109,6 +109,147 @@ def reverse_string(name):
         print(result)
         
 reverse_string("BhoomikaSahu")
+
+def add(a,b):
+    return  a + b
+
+sum = add(3, 4)
+print(sum)'''
+
+'''check even or odd
+def even_odd(num):
+    if(num % 2 == 0):
+        return "even"
+    else:
+        return "odd"
+    
+#sum = even_odd(7)
+#print(sum)
+
+print(even_odd(8))'''
+
+'''Find square of a number
+def square(num):
+    sum = num * num
+    return sum
+
+print(square(9))'''
+
+'''Find maximum of two numbers
+def maximum(a,b):
+    if(a > b):
+        return "a is greater than b"
+    else:
+        return "b is greater than a"
+        
+print(maximum(8,9))'''
+
+'''Check positive and negative
+def pos_neg(num):
+    if num >= 0:
+        return "num is positive"
+    else:
+        return "num is negative"
+    
+print(pos_neg(-7))'''
+
+'''calculate factorial
+def factorial(num):
+    result = 1
+    
+    for i in range(1, num + 1):
+        result *= i
+        
+        return result
+    print(factorial(5))'''
+    
+'''Find the largest of two numbers
+def largest(a,b):
+    if a > b:
+        return " a is greater than b"
+    else:
+        return "b is greater than a"
+    
+two = largest(8,9)
+print(two)'''
+
+'''check positive negative or zero
+def Pos_neg_zero(num):
+    if num > 0:
+        return "positive"
+    elif num == 0:
+        return "zero"
+    else:
+        return "Negative"
+    
+print(Pos_neg_zero(-9))'''
+
+'''find factorial
+# def factorial(num):
+#     result = 1
+#     for i in range(1, num + 1):
+#         result = result * i # 1*1*2*3*4*5*6*7*8
+#         return result
+    
+# print(factorial(8))
+
+def factorial(num):
+    result = 1
+
+    for i in range(1, num + 1):
+        result = result * i
+
+    return result
+
+print(factorial(5))'''
+
+'''Reverse a string
+def reverse(num):
+    return num[::-1]
+
+print(reverse("hello"))
+
+# count vowels in a string
+def count_vowels(text):
+    count = 0
+    
+    for ch in text:
+        if ch in "aeiouAEIOU":
+            count += 1
+            
+    return count
+print(count_vowels("hello"))
+
+# Find the maximum number in a list
+def find_max(numbers):
+    maximum = numbers[0]
+    
+    for num in numbers:
+        if num > maximum:
+            maximum = num
+            
+    return maximum
+print(find_max([10, 25, 7, 40, 15]))
+
+# Check whether a number is prime
+def is_prime(num):
+    if num < 2:
+        return False
+    
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+        
+    return True
+print(is_prime(7))'''
+        
+        
+        
+        
+    
+    
+        
+
         
     
     

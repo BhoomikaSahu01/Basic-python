@@ -334,13 +334,58 @@ print(full_name("John","Doe"))
 that returns the area of a rectangle.Test it by calling
 the function with
 1 Both length and width
-2 Only length(use default width)'''
+2 Only length(use default width)
 
 def calculate_area(length, width = 10):
     return length * width
 
 print(f "The area of the rectangle is {calculate_area(13, 20)}")
-print(calculate_area(13))
+print(calculate_area(13))'''
+
+'''check whether two variables refers to the same object
+a = [10, 20, 30]
+b = a
+print(a is b)'''
+
+'''Check two separate list
+a = [10, 20, 30]
+b = [10, 20, 30]
+print(a is b)
+print(b is a)'''
+
+'''using is not
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+if x is not y:
+    print("They are different object")
+else:
+    print("They are the same objects")'''
+    
+'''identity operator with None
+
+name = None
+if name is None:
+    print("no name provided")'''
+    
+'''Function returning the same object
+def get_data():
+    data = [10, 20, 30]
+    return data
+
+a = get_data()
+b = a
+print(a is b)'''
+
+'''Check two seperate lists'''
+a = [10, 20, 30]
+b = [10]
+
+
+
+    
+
+
      
 
         
