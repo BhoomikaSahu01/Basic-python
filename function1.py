@@ -241,10 +241,114 @@ def is_prime(num):
             return False
         
     return True
-print(is_prime(7))'''
+print(is_prime(7))
+
+
+def print_hello():
+    for i in range(1,11):
+        print("hello")
+    
+print_hello()
+
+
+# average of 3 numbers
+def calc(a, b, c):
+    sum = a + b + c
+    average = sum/3
+    return average
+
+print(calc(4, 5, 8))
+ #end questions means 2 3 line ko ek line maine lena hp
+print("apnacollege", end ="$") #what you actually situated bet two
+print("shraddhakhapra") #line we use end
+
+print("hello", end = " ")
+print("word")
+
+for i in range (1, 11):
+    print(i, end = " ")
+    
+for i in range(5, 0, -1):
+    print(i, end = " ")
+    
+# print stars on the same line
+for i in range(5):
+    print("*", end = " ")
+    
+# What will be the output
+print("python", end = " - ", )
+print("programming")'''
+
+'''sep questions # ek hi line ke beech maine kuch likhna hoo
+print three words separated by - 
+print("python", "java", "C++", sep = "-")
+
+# print date using /
+print("20","09","2026", sep = "/")
+
+# print time using:
+print("8","30", sep = ":", end = " ")
+print("pm")
+
+# print a sentence using sep
+print("my","name","is", "bhoomika", sep = " ")
+
+print("A", "B", "C", sep="---")
+
+# calculate the multiplication of two numbers
+
+def multi_num(a ,b=3):
+    num = a * b
+    return num
+print(multi_num(1,))
+
+# write a print the length of a list(list is the parameter)
+list1 = ["heroes", "ironman", "shaktiman", "batman"]
+list2 = ["Delhi", "Agra", "Mumbai"]
+
+def len_list(list):
+    sum = len(list)
+    return sum
+
+print(len_list(list2))
+
+#WAF to print the element of a list in a single line
+
+list1 = ["heroes", "ironman", "shaktiman", "batman"]
+list2 = ["Delhi", "Agra", "Mumbai"]
+
+def element(list):
+    for item in list:
+        print(item, end = " ")
         
-        
-        
+element(list1)
+
+#WAf to find the factorial of n.(n is the parameter)
+
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result = result * i
+    return result
+print(factorial(9))
+
+#WAF to convert USD to INR
+
+def convert(usd_val):
+    inr_val = usd_val * 83
+    return (usd_val, "USD =", inr_val, "INR")
+
+print(convert(5))
+
+def even_odd(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("ODD")
+
+even_odd(7)
+'''
+#
         
     
     
