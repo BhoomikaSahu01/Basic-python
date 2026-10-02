@@ -377,12 +377,84 @@ a = get_data()
 b = a
 print(a is b)'''
 
-'''Check two seperate lists'''
+'''Check two seperate lists
 a = [10, 20, 30]
-b = [10]
+b = [10]'''
 
+'''print all elements of a list
 
+num = [10, 22, 50, 60, 70]
 
+for i in num:
+    print(i)
+'''
+
+'''Find the length of a list without len()
+
+numbers = [10, 20, 30, 40, 50]
+count = 0
+for num in numbers:
+    count += 1
+print(count)
+'''
+
+'''Find the largest element
+numbers = [10, 25, 5, 40, 15]
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+        
+print("Largest", largest)'''
+
+'''Find the smallest element
+numbers = [10, 25, 5, 40, 15]
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num
+print("smallest =", smallest)'''
+
+'''Find the sum of list elements
+numbers = [10, 20, 30, 40, 50]
+
+sun = 0
+for i in numbers:
+    sum += i
+    
+print("sum=", sum)
+'''
+
+'''Count even and odd numbers
+numbers = [1, 2, 3, 4, 5, 6]
+even = 0
+odd = 0
+for num in numbers:
+    if num % 2 == 0:
+        even += 1
+    else:
+        odd += 1'''
+        
+'''Reverse a list without reverse()
+numbers = [1, 2, 3, 4, 5]
+reverse = []
+for num in numbers:
+    reverse.insert(0, num)
+print(reverse)'''
+
+'''Remove a duplicate element
+numbers = [1, 2, 2, 3, 4, 4, 5]
+result = []
+for num in numbers:
+    if num not in result:
+        result.append(num)
+print(result)
+'''
+
+'''find duplicate elements'''
     
 
 
