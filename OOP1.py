@@ -303,7 +303,7 @@ car1.start()'''
 
 '''Let's practice
 Create Account class with 2 attributes - balance & account no.
-create methods for debit, credit and printing the balance'''
+create methods for debit, credit and printing the balance
 
 class Account:
     def __init__(self, bal, acc):
@@ -334,6 +334,252 @@ acc1.debit(1000)
 acc1.credit(90000)
 acc1.credit(10000)
 acc1.debit(10000)
+
+
+# del keyword
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+        
+s1 = Student("shraddha")
+
+print(s1.name)  
+del s1.name
+print(s1.name)
+
+#Private(like) attributes and methods
+class Account:
+    def __init__(self, acc_no, acc_pass):
+        self.acc_no = acc_no
+        self.acc_pass = acc_pass
+        
+    def reset_pass(self):
+        print(self.__acc_pass)
+        
+acc1 = Account("12345", "abcde")
+print(acc1.acc_no)
+print(acc1.acc_pass)
+
+class Person:
+    __name = "anonymous"
+    
+    def __hello(self):
+        print("hello person !")
+        
+    def welcome(self):
+        self.__hello()
+    
+p1 = Person()
+print(p1.welcome())'''
+
+'''Classes ane objects
+
+class Dog:
+    species = "Canis Familaries" # Class attribue
+    
+def __init__(self, name, breed):# constructor
+    self.name = name #instance attribute
+    self.breed = breed # instance attribute
+    
+# Method
+def bark(self):
+    print(f"{self.name} says woof!")
+    
+#Object
+first_dog = Dog("buddy", "golden retriever")
+another_dog = Dog("lucky", "labrador")
+
+# We can access their attributes
+
+print(first_dog.name)
+print(another_dog.breed)
+
+# we can perfor action
+first_dog.bark() # buddy says woof
+print(Dog.species) # Canis Familiars'''
+
+'''Create a student class with name and age. Display the details
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+s1 = Student("Bhoomika",22)
+print(s1.name , s1.age)'''
+
+'''create an employee class with name and salary
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+        
+emp1 = Employee("kirtan", 10000)
+print("Name =", emp1.name)
+print("salary =", emp1.salary )'''
+
+'''Create a car class with a start() method
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+        
+    def start(self):
+        print(self.brand, "is starting")
+        
+car1 = Car("Toyota")
+
+print(car1.brand)
+car1.start()'''
+
+'''Create a calculator class and two numbers
+
+class Calculater:
+    def add(self, a, b):
+        return a + b
+    
+c = Calculater()
+
+result = c.add(10, 20)
+print("sum:", result)'''
+
+'''Create a class to calculate the area of a rectangle
+
+class Rectangle:
+    def __init__(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+        
+    def area(self):
+        print("area of rectangle =", self.length * self.breadth)
+area_ofR = Rectangle(10,20)
+
+print(area_ofR.length, area_ofR.breadth)
+area_ofR.area()'''
+
+'''create a class that checks whether a number
+is even or odd
+
+class Number:
+    def __init__(self, num):
+        self.num = num
+        
+        
+    def even_odd(self):
+        if self.num % 2 == 0:
+            print("even")
+        else:
+            print("odd")
+            
+n = Number(55)
+n.even_odd()'''
+
+'''create a Student class that checks whether the 
+student passed or failed
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name 
+        self.marks = marks
+        
+    def pass_fail(self):
+        if self.marks >= 40:
+            print("pass")
+        else:
+            print("fail")
+            
+s1 = Student("nancy", 78)
+print(s1.name, s1.marks)
+
+s2 = Student("shiv", 88)
+print(s2.name, s2.marks)
+
+s1.pass_fail()
+s2.pass_fail()'''
+
+'''calculate an employee's annual salary
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+        
+    def annual(self):
+        self.salary = self.salary * 12
+        print ("annual salary",self.salary)
+        
+emp1 =Employee("raghav", 10000)
+print(emp1.name, emp1.salary)
+emp1.annual()'''
+
+'''create a calculator using a class
+class Calculator:
+    def add(self, a, b):
+        return a + b
+    
+    def subtract(self, a, b):
+        return a - b
+    
+    def multiply(self, a, b):
+        return a * b
+    
+    def divide(self, a, b):
+        return a / b
+    
+c = Calculator()
+
+print("addition:", c.add(10, 5))
+print("substraction:", c.subtract(10,5))
+print("multiplication:",c.multiply(10, 5))
+print("Division:", c.divide(10,5))'''
+    
+''' Create a bank account with deposit and withdrawl
+
+class Bank:
+    def __init__(self, balance):
+        self.balance = balance
+        
+    def deposit(self, amount):
+        self.balance= self.balance + amount
+        
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Insufficient balance")
+            
+    def show_balance(self):
+        print("Balance:", self.balance)
+        
+account = BankAccount(5000)
+
+account.deposit(2000)
+account.withdraw(1000)
+
+account.show_balance()'''
+    
+    
+
+
+    
+    
+            
+
+
+    
+        
+        
+        
+    
+    
+
+    
+    
+    
+
+    
+
+
         
 
 

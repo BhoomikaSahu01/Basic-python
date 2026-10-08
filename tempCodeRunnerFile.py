@@ -1,6 +1,2 @@
-
-'''
-
-s = {34, 23, 1, 3, 22}
-print(s)
-print(s.add(32))
+Account("12345", "abcde")
+print(acc1.acc_no)
