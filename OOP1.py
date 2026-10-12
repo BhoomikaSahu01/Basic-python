@@ -557,6 +557,127 @@ account.deposit(2000)
 account.withdraw(1000)
 
 account.show_balance()'''
+
+
+#inheritance: Building upon Existing classes
+
+'''class Animal: # Parent Class super class
+    def __init__(self):
+        self.name = self
+        
+    def speak(self): # method
+        print("Generic animal sound")
+        
+class Dog(Animal):#dog inherits from animal(dog is a subclass)
+    def speak(self):
+        print("Woof !")
+        
+class Cat(Animal): # car also inherits from Animal
+    def speak(self):
+        print("Meow !")
+        
+# Create Objects
+my_dog = Dog("Rover")
+my_cat = Cat("Fluffy")
+
+#They both have a 'name' attribute(inherited from Animal)
+print(my_dog.name) #output: Rover
+print(my_cat.name) #output: Fluffy
+
+# They both have a 'speak' method, but it behaves differently:
+my_dog.speak() # output: woof
+my_cat.speak() # output: Meow!'''
+
+'''create a parent class Animal with a mehod eat().
+create a child class dog that inherits from Animal
+
+class Animal:
+    def eat(self):
+        print("Animal is eating")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking")
+        
+d = Dog()
+d.eat()
+d.bark()'''
+
+'''create a parent class person with a name and age
+. create a child class student that displays that
+student's details
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+class Student(Person):
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        
+s = Student("Rahul", 22)
+s.display()'''
+
+'''Create a parent class Vehicle with a method start().
+Create a child class Car with a method driver()
+
+class Vehicle:
+    def start(self):
+        print("Vehicle is starting")
+        
+class Car(Vehicle):
+    def driver(self):
+        print("driver driving the car")
+        
+c = Car()
+c.start()
+c.driver()'''
+
+# super Function
+''' Create a parent class employee and child class Manager.
+use super() to call the parent constructor
+
+class Employee:
+    def __init__(self, name):
+        self.name = name
+        
+class Manager(Employee):
+    def __init__(self, name, salary):
+        super().__init__(name)
+        self.salary = salary
+        
+    def display(self):
+        print("Name",self.name)
+        print("salary:", self.salary)
+        
+m = Manager("Amit", 50000)
+m.display()'''
+
+# Multilevel inheritance
+'''create three classes, Grandfather , Father, and son.
+Each class should have its own method.'''
+
+class Grandfather:
+    def show_grandfather(self):
+        print("I am Grandfather")
+        
+class Father(Grandfather):
+    def show_father(self):
+        print("I am Father ")
+        
+class son(Father):
+    def show_son(self):
+        print("I am son")
+        
+
+
+    
+    
+        
+        
+    
     
     
 
