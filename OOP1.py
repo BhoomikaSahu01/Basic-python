@@ -657,7 +657,7 @@ m.display()'''
 
 # Multilevel inheritance
 '''create three classes, Grandfather , Father, and son.
-Each class should have its own method.'''
+Each class should have its own method.
 
 class Grandfather:
     def show_grandfather(self):
@@ -669,8 +669,36 @@ class Father(Grandfather):
         
 class son(Father):
     def show_son(self):
-        print("I am son")
+        print("I am son")'''
+  
+# operator overloading      
+# Add two objects using
+
+# class Number:
+#     def __init__(self, n):
+#         self.n = n
         
+#     def __add__(self, other):
+#         return self.n + other.n
+    
+# a = Number(10)
+# b = Number(20)
+# print(a + b)
+
+#subtract two objects using
+# class Number:
+#     def __init__(self, n):
+#         self.n = n
+        
+#     def __sub__(self, other):
+#         return self.n - other.n
+    
+# a = Number(100)
+# b = Number(80)
+# print(a - b)
+        
+# multiply two objects using
+ 
 
 
     
