@@ -17,7 +17,7 @@ print(s.pop())
 print(s.values)
 s.push(60)
 print(s.values) # 60, 30, 20, 10
-print(s.pop()) # pop 60'''
+print(s.pop()) # pop 60
 
 # create a stack with push(), pop(), and display() method
 class Stack: # create a class
@@ -27,7 +27,7 @@ class Stack: # create a class
     def push(self, x): #method
         self.values.append(x)
         
-    def pop(self): #mehtod
+    def pop(self): #method
         if not self.values:
             return "stack is empty"
         return self.values.pop()
@@ -44,4 +44,38 @@ s.push(40)
 s.display()
 print(s.pop())
 s.display()
+
+class Stack:
+    def __init__(self):
+        self.values = []
+        
+    def push(self, x):
+        self.values = [x] + self.values
+        
+    def pop(self):
+        return self.values.pop(0)
+        
+s = Stack()
+s.push(10)
+s.push(20)
+s.push(30)
+s.push(40)
+print(s.values)'''
+
+class Stack :
+    def __init__(self):
+        self.values = []
+        
+    def push(self, x):
+        self.values = [x] + self.values
+        
+    def pop(self):
+        return self.values.pop(0)
+    
+s = Stack()
+s.push(10)
+s.push(20)
+s.push(30)
+s.push(40)
+print(s.values)
     

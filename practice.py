@@ -463,25 +463,82 @@ print(result)
 #     num = num // 10
     
 
-'''Reverse an array using Recursion'''
+# '''Reverse an array using Recursion'''
 
-def reverse_array(arr, start, end):
-    if start >= end:
-        return
-    arr[start], arr[end] = arr[end], arr[start]
-    reverse_array(arr, start+1, end - 1)
+# def reverse_array(arr, start, end):
+#     if start >= end:
+#         return
+#     arr[start], arr[end] = arr[end], arr[start]
+#     reverse_array(arr, start+1, end - 1)
     
-arr = [1, 2, 3, 4, 5]
-reverse_array(arr, 0, len(arr)-1)
-print(arr)
+# arr = [1, 2, 3, 4, 5]
+# reverse_array(arr, 0, len(arr)-1)
+# print(arr)
 
      
-
+# '''swap two variable without using a third variable'''
+# a = 5
+# b = 9
+# a,b = b,a
+# print(a, b)
         
+# '''Calculate the sum of two variable'''
+# a = 9
+# b = 10
+# print(a + b)
+
+# '''exchange two variable using a third variable'''
+# a = 9
+# b = 8
+# temp = a
+# a = b
+# b = temp
+# print(a, b)
+
+# '''predict the output'''
+# x = 10
+# x = x + 5
+# x = x + 2
+# print(x)
+
+# # Assign multiple values to multiple variables
+# x = 6
+# y = 9
+# z = 10 
+
+# f = 17.9
+# print(type(f))
+
+
+# '''convert a string into an integer'''
+# str1 = "nancy"
+# str1 = int(str1)
+# print(type(str1))
+
+# '''Take input and calculate the square of a number'''
+# num = int(input("enter a number"))
+# square = num * 2
+# print(square)
+
+# '''check whether a variable is an integer or a string'''
+# value = 89
+# if isinstance(value, int):
+#     print("integer")
+# elif isinstance(value, str):
+#     print("string")
+# else:
+#     print("other data type")
     
 
+# '''Convert celsius to Fahrenheit'''
+# celsius = 37
+# fahrenheit = (celsius * 9/5) + 32
+# print(fahrenheit)
 
-    
-
-
-    
+'''arithmetic operators'''
+a = 10
+b = 5
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
