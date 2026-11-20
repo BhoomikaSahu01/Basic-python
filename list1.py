@@ -133,6 +133,156 @@ numbers.append(10)
 numbers.remove(2)
 print(numbers)'''
 
+'''find the sum of all elements
+marks = [5, 2, 9, 1, 7]
+#print(len(numbers))
+sum = 0
+for i in marks:
+    sum = sum + i
+    
+print(sum)'''
+
+'''find the largest element in a list
+marks = [5, 8, 9, 99, 44]
+
+largest = marks[0]
+for i in marks:
+    if i > largest:
+        largest = i
+        
+print(largest)'''
+
+'''find the smallest element in a list
+marks = [10, 20, 30, 40, 50]
+smallest = marks[0]
+
+for i in marks:
+    if i < smallest:
+        smallest = i
+        
+print(smallest)'''
+
+'''sort the list in ascending order
+marks = [5, 2, 21, 5, 7]
+marks.sort()
+print(marks)'''
+
+'''sort the list in decending order
+marks = [5, 2, 21, 5, 7]
+marks.sort(reverse = True)
+print(marks)'''
+
+'''reverse a list
+marks = [5, 2, 21, 5, 7]
+marks.reverse()
+print(marks)'''
+
+'''count how many times an element appears
+marks =[5, 2, 5, 7, 5, 8]
+
+print(marks.count(5))'''
+
+'''Remove duplicate elements from a list
+numbers = [1, 2, 2, 3, 4, 4, 5]
+new_list = []
+for i in numbers:
+    if i not in new_list:
+        new_list.append(i)
+print(new_list)'''
+
+'''find even number from a list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+even = [x for x in numbers if x%2 == 0]
+print(even)'''
+
+'''find odd numbers from a list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+odd = [x for x in numbers if x%2 != 0]
+print(odd)'''
+
+'''find squares of all elements
+numbers = [1, 2, 3, 4, 5]
+square = [x**2 for x in numbers]
+print(square)
+'''
+
+'''separate positive and negative numbers
+numbers = [10, -5, 20, -3, 0, 8]
+positive =[x for x in numbers if x > 0]
+negative =[x for x in numbers if x < 0]
+print(positive)
+print(negative)'''
+
+'''Merge two lists
+list1 = [5, 5, 8, 9]
+list2 = [7, 9, 10, 18]
+list3 = list1 + list2
+print(list3)'''
+
+
+'''check whether an element exists in a list
+numbers = [10, 20, 30, 40]
+if 30 in numbers:
+    print("element found")
+else:
+    print("element not found")'''
+    
+'''find common elements between two lists
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+common = [x for x in list1 if x in list2]
+print(common)'''
+
+'''check whether a list is palindrome
+list = [1, 2, 1]
+copy_list = list.copy
+copy_list.reverse()
+
+if copy_list == list:
+    print("palindrome")
+else:
+    print("not palindrome")'''
+    
+'''find the second smallest element
+numbers = [10, 20, 5, 40, 30]
+numbers.sort()
+print(numbers[1])'''
+
+'''move all zeros to the end of a list
+numbers = [0, 1, 0, 3, 12]
+new_list = []
+for i in numbers:
+    if i != 0:
+        new_list.append(i)
+print(new_list)'''
+
+'''find the frequency of each element
+numbers = [1, 2, 2, 3, 3, 3, 4]
+
+for i in numbers:
+    if numbers.index(i) == numbers.index(i):
+        print(i, "=", numbers.count(i))'''
+        
+'''
+numbers = [1, 2, 2, 3, 3, 3, 4]
+
+for i in numbers:
+    if i not in []:
+        pass
+
+frequency = {}
+
+for i in numbers:
+    frequency[i] = frequency.get(i, 0) + 1
+
+print(frequency)'''
+
+        
+
+
+
+
+
 
 
 
